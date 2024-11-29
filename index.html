@@ -1,374 +1,386 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="HelloMeme: Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models">
-  <meta property="og:title" content="HelloMeme"/>
-  <meta property="og:description" content="Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models"/>
-  <meta property="og:url" content="https://github.com/HelloVision/HelloMeme"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+<meta charset="utf-8">
+<!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+<!-- Replace the content tag with appropriate information -->
+<meta name="description" content="HelloMeme: Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models">
+<meta property="og:title" content="HelloMeme"/>
+<meta property="og:description" content="Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models"/>
+<meta property="og:url" content="https://github.com/HelloVision/HelloMeme"/>
+<!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+<meta property="og:image" content="static/image/your_banner_image.png" />
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="HelloMeme">
-  <meta name="twitter:description" content="Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="HelloMeme">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="twitter:title" content="HelloMeme">
+<meta name="twitter:description" content="Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models">
+<!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+<meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+<meta name="twitter:card" content="summary_large_image">
+<!-- Keywords for your paper to be indexed by-->
+<meta name="keywords" content="HelloMeme">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>HelloMeme</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+<title>HelloMeme</title>
+<link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+<link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+rel="stylesheet">
 
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
+<link rel="stylesheet" href="static/css/bulma.min.css">
+<link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+<link rel="stylesheet" href="static/css/bulma-slider.min.css">
+<link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="static/css/index.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script defer src="static/js/fontawesome.all.min.js"></script>
+<script src="static/js/bulma-carousel.min.js"></script>
+<script src="static/js/bulma-slider.min.js"></script>
+<script src="static/js/index.js"></script>
 </head>
 <body>
 
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">HelloMeme: Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://github.com/songkey" target="_blank">Shengkai Zhang</a>
-              </span>,
-              <span class="author-block">
-                <a href="https://github.com/RhythmJnh" target="_blank">Nianhong Jiao</a>
-              </span>,
-              <span class="author-block">
-                <a href="https://github.com/Shelton0215" target="_blank">Tian Li</a>
-              </span>,
-              <span class="author-block">
-                <a href="https://github.com/chaojie12131243" target="_blank">Chaojie Yang</a>
-              </span>,
-              <span class="author-block">
-                <a href="https://github.com/xchgit" target="_blank">Chenhui Xue</a>
-              </span>,
-              <span class="author-block">
-                <a href="https://github.com/boya34" target="_blank">Boya Niu</a>
-              </span>,
-              <span class="author-block">
-                <a href="https://songkey.github.io/hellomeme/" target="_blank">Jun Gao</a>
-              </span>
-                <span class="author-block">
-                  </span>
-                  </div>
+<section class="hero">
+<div class="hero-body">
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+<div class="column has-text-centered">
+<h1 class="title is-1 publication-title">HelloMeme: Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models</h1>
+<div class="is-size-5 publication-authors">
+<!-- Paper authors -->
+<span class="author-block">
+<a href="https://github.com/songkey" target="_blank">Shengkai Zhang</a>
+</span>,
+<span class="author-block">
+<a href="https://github.com/RhythmJnh" target="_blank">Nianhong Jiao</a>
+</span>,
+<span class="author-block">
+<a href="https://github.com/Shelton0215" target="_blank">Tian Li</a>
+</span>,
+<span class="author-block">
+<a href="https://github.com/chaojie12131243" target="_blank">Chaojie Yang</a>
+</span>,
+<span class="author-block">
+<a href="https://github.com/xchgit" target="_blank">Chenhui Xue</a>
+</span>,
+<span class="author-block">
+<a href="https://github.com/boya34" target="_blank">Boya Niu</a>
+</span>,
+<span class="author-block">
+<a href="https://songkey.github.io/hellomeme/" target="_blank">Jun Gao</a>
+</span>
+<span class="author-block">
+</span>
+</div>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block"> HelloVision | HelloGroup Inc. </span>
-                  </div>
+<div class="is-size-5 publication-authors">
+<span class="author-block"> HelloVision | HelloGroup Inc. </span>
+</div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                      <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/2410.22901" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Technical Report</span>
-                      </a>
-                    </span>
+<div class="column has-text-centered">
+<div class="publication-links">
+<!-- Arxiv PDF link -->
+<span class="link-block">
+<a href="https://arxiv.org/pdf/2410.22901" target="_blank"
+class="external-link button is-normal is-rounded is-dark">
+<span class="icon">
+<i class="fas fa-file-pdf"></i>
+</span>
+<span>Technical Report</span>
+</a>
+</span>
 
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/HelloVision/HelloMeme" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
+<!-- ArXiv abstract Link -->
+<span class="link-block">
+<a href="https://arxiv.org/abs/2410.22901" target="_blank"
+class="external-link button is-normal is-rounded is-dark">
+<span class="icon">
+<i class="ai ai-arxiv"></i>
+</span>
+<span>arXiv</span>
+</a>
+</span>
 
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/2410.22901" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<!-- Github link -->
+<span class="link-block">
+<a href="https://github.com/HelloVision/HelloMeme" target="_blank"
+class="external-link button is-normal is-rounded is-dark">
+<span class="icon">
+<i class="fab fa-github"></i>
+</span>
+<span>Code</span>
+</a>
+</span>
+
+<!-- ComfyUI Link -->
+<span class="link-block">
+    <a href="https://github.com/HelloVision/ComfyUI_HelloMeme" target="_blank"
+    class="external-link button is-normal is-rounded is-dark">
+    <!-- <span class="icon">
+    <i class="ai comfyui"></i>
+    </span> -->
+    <span>ComfyUI</span>
+    </a>
+</span>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 
 <!-- Teaser video-->
 <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="title" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/title.mp4"
-        type="video/mp4">
-      </video>
-      <p class="content has-text-centered">
-        Source of material: <a href="https://baike.baidu.com/item/%E7%86%8A%E7%AB%B9%E8%8B%B1/53890052" target="_blank">XiongZhuying 熊竹英</a> <a href="https://zh.wikipedia.org/zh-cn/%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA" target="_blank">Black Myth:Wukong 黑神话：悟空</a>
-      </p>
-    </div>
-  </div>
+<div class="container is-max-desktop">
+<div class="hero-body">
+<video poster="" id="title" autoplay controls muted loop height="100%">
+<!-- Your video here -->
+<source src="static/videos/title.mp4"
+type="video/mp4">
+</video>
+<p class="content has-text-centered">
+Source of material: <a href="https://baike.baidu.com/item/%E7%86%8A%E7%AB%B9%E8%8B%B1/53890052" target="_blank">XiongZhuying 熊竹英</a> <a href="https://zh.wikipedia.org/zh-cn/%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA" target="_blank">Black Myth:Wukong 黑神话：悟空</a>
+</p>
+</div>
+</div>
 </section>
 <!-- End teaser video -->
 
 <!-- Method -->
 <section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div>
-        <h2 class="title is-3">Method</h2>
-        <div class="content has-text-justified">
-          <!-- Your image here -->
-          <img src="static/images/structure.png" alt="Network Structure"/>
-          <p class="content has-text-centered">
-            Network Structure
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+<div>
+<h2 class="title is-3">Method</h2>
+<div class="content has-text-justified">
+<!-- Your image here -->
+<img src="static/images/structure.png" alt="Network Structure"/>
+<p class="content has-text-centered">
+Network Structure
+</p>
+</div>
+</div>
+</div>
+</div>
 </section>
 <!-- End Method -->
 
 <!-- Image Generate -->
 <section class="section hero is-small">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Image Generate</h2>
-        <div class="content has-text-justified">
-          <!-- Your image here -->
-          <img src="static/images/image.jpg" alt="Image Generate"/>
-          <!-- <p class="content has-text-centered">
-            Network Structure
-          </p> -->
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+<div class="column is-four-fifths">
+<h2 class="title is-3">Image Generate</h2>
+<div class="content has-text-justified">
+<!-- Your image here -->
+<img src="static/images/image.jpg" alt="Image Generate"/>
+<!-- <p class="content has-text-centered">
+Network Structure
+</p> -->
+</div>
+</div>
+</div>
+</div>
 </section>
 <!-- End Image Generate -->
 
 <!-- Motion Module -->
 <section class="hero is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">Motion Module</h2>
-      <p>
-        If we extract the features of each frame from the driving video and use them as input to the HMControlModule, we can generate a video, but flickering may occur between frames. After introducing the Animatediff module, the continuity of the generated video improved, albeit at the expense of fidelity. To address this, we fine-tuned the Animatediff module further, ultimately enhancing both the continuity and fidelity.
-      </p>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="motion1" controls height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/motion1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="motion2" controls height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/motion2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="hero-body">
+<div class="container is-max-desktop">
+<h2 class="title is-3">Motion Module</h2>
+<p>
+If we extract the features of each frame from the driving video and use them as input to the HMControlModule, we can generate a video, but flickering may occur between frames. After introducing the Animatediff module, the continuity of the generated video improved, albeit at the expense of fidelity. To address this, we fine-tuned the Animatediff module further, ultimately enhancing both the continuity and fidelity.
+</p>
+<div id="results-carousel" class="carousel results-carousel">
+<div class="item item-video1">
+<video poster="" id="motion1" controls height="100%">
+<!-- Your video file here -->
+<source src="static/videos/motion1.mp4"
+type="video/mp4">
+</video>
+</div>
+<div class="item item-video2">
+<video poster="" id="motion2" controls height="100%">
+<!-- Your video file here -->
+<source src="static/videos/motion2.mp4"
+type="video/mp4">
+</video>
+</div>
+</div>
+</div>
+</div>
 </section>
 <!-- End Motion Module -->
 
 <!-- Exp Edit -->
 <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Expression Edit</h2>
-        <p>
-          The input conditions for the HMControlModule can be generated by a head model that has the <a href="https://arkit-face-blendshapes.com/" target="_blank">ARKit Face Blendshapes</a> bound to it. So we can use ARKit blendshape values to control the generation of facial expressions.
-        </p>
-        <video poster="" id="video_expedit" controls muted loop height="100%">
-          <!-- Your video file here -->
-          <source src="static/videos/expedit.mp4"
-          type="video/mp4">
-        </video>
-    </div>
-  </div>
+<div class="hero-body">
+<div class="container is-max-desktop">
+<!-- Paper video. -->
+<h2 class="title is-3">Expression Edit</h2>
+<p>
+The input conditions for the HMControlModule can be generated by a head model that has the <a href="https://arkit-face-blendshapes.com/" target="_blank">ARKit Face Blendshapes</a> bound to it. So we can use ARKit blendshape values to control the generation of facial expressions.
+</p>
+<video poster="" id="video_expedit" controls muted loop height="100%">
+<!-- Your video file here -->
+<source src="static/videos/expedit.mp4"
+type="video/mp4">
+</video>
+</div>
+</div>
 </section>
 <!-- End Exp Edit -->
 
 <!-- Lora -->
 <section class="hero is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">With SD1.5 based Lora or Checkpoint</h2>
-      <p>
-        Our framework is a hot-swappable adapter built on SD1.5 which does not compromise the generalization capability of the T2I model itself. Consequently, any stylization models developed on the SD1.5 foundation can be seamlessly integrated with our solution.
-      </p>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="lora1" controls height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/lora1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="lora2" controls height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/lora2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="hero-body">
+<div class="container is-max-desktop">
+<h2 class="title is-3">With SD1.5 based Lora or Checkpoint</h2>
+<p>
+Our framework is a hot-swappable adapter built on SD1.5 which does not compromise the generalization capability of the T2I model itself. Consequently, any stylization models developed on the SD1.5 foundation can be seamlessly integrated with our solution.
+</p>
+<div id="results-carousel" class="carousel results-carousel">
+<div class="item item-video1">
+<video poster="" id="lora1" controls height="100%">
+<!-- Your video file here -->
+<source src="static/videos/lora1.mp4"
+type="video/mp4">
+</video>
+</div>
+<div class="item item-video2">
+<video poster="" id="lora2" controls height="100%">
+<!-- Your video file here -->
+<source src="static/videos/lora2.mp4"
+type="video/mp4">
+</video>
+</div>
+</div>
+</div>
+</div>
 </section>
 <!-- End Lora -->
 
 <!-- LCM -->
 <section class="hero is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">With LCM</h2>
-      <p>
-        An unexpected benefit is that, due to the Fidelity-Rich Conditions introduced by the HMReferenceModule, we can achieve high-fidelity results with fewer sampling steps.
-      </p>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="lora1" controls height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/lcm1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="lora2" controls height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/lcm2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="hero-body">
+<div class="container is-max-desktop">
+<h2 class="title is-3">With LCM</h2>
+<p>
+An unexpected benefit is that, due to the Fidelity-Rich Conditions introduced by the HMReferenceModule, we can achieve high-fidelity results with fewer sampling steps.
+</p>
+<div id="results-carousel" class="carousel results-carousel">
+<div class="item item-video1">
+<video poster="" id="lora1" controls height="100%">
+<!-- Your video file here -->
+<source src="static/videos/lcm1.mp4"
+type="video/mp4">
+</video>
+</div>
+<div class="item item-video2">
+<video poster="" id="lora2" controls height="100%">
+<!-- Your video file here -->
+<source src="static/videos/lcm2.mp4"
+type="video/mp4">
+</video>
+</div>
+</div>
+</div>
+</div>
 </section>
 <!-- End LCM -->
 
 <!-- Compare -->
 <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">Comparison with other Methods</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="compare1" controls height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/compare1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="compare2" controls height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/compare2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="compare3" controls height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/compare3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="hero-body">
+<div class="container is-max-desktop">
+<h2 class="title is-3">Comparison with other Methods</h2>
+<div id="results-carousel" class="carousel results-carousel">
+<div class="item item-video1">
+<video poster="" id="compare1" controls height="100%">
+<!-- Your video file here -->
+<source src="static/videos/compare1.mp4"
+type="video/mp4">
+</video>
+</div>
+<div class="item item-video2">
+<video poster="" id="compare2" controls height="100%">
+<!-- Your video file here -->
+<source src="static/videos/compare2.mp4"
+type="video/mp4">
+</video>
+</div>
+<div class="item item-video3">
+<video poster="" id="compare3" controls height="100%">
+<!-- Your video file here -->
+<source src="static/videos/compare3.mp4"
+type="video/mp4">
+</video>
+</div>
+</div>
+</div>
+</div>
 </section>
 <!-- End compare -->
 
 <!-- BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>@misc{zhang2024hellomemeintegratingspatialknitting,
-        title={HelloMeme: Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models}, 
-        author={Shengkai Zhang and Nianhong Jiao and Tian Li and Chaojie Yang and Chenhui Xue and Boya Niu and Jun Gao},
-        year={2024},
-        eprint={2410.22901},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV},
-        url={https://arxiv.org/abs/2410.22901}, 
-  }</code></pre>
-    </div>
+<section class="section" id="BibTeX">
+<div class="container is-max-desktop content">
+<h2 class="title">BibTeX</h2>
+<pre><code>@misc{zhang2024hellomemeintegratingspatialknitting,
+title={HelloMeme: Integrating Spatial Knitting Attentions to Embed High-Level and Fidelity-Rich Conditions in Diffusion Models}, 
+author={Shengkai Zhang and Nianhong Jiao and Tian Li and Chaojie Yang and Chenhui Xue and Boya Niu and Jun Gao},
+year={2024},
+eprint={2410.22901},
+archivePrefix={arXiv},
+primaryClass={cs.CV},
+url={https://arxiv.org/abs/2410.22901}, 
+}</code></pre>
+</div>
 </section>
 <!--End BibTex citation -->
 
 
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-          <p>The materials used on this page are sourced from publicly available content on the internet, with some sources listed below</p>
-          <p>
-            <a href="https://civitai.com/models/4201?modelVersionId=130072" target="_blank">Realistic Vision</a> | <a href="https://civitai.com/models/43331/majicmix-realistic?modelVersionId=176425" target="_blank">majicMIX realistic</a> | <a href="https://civitai.com/models/65203/disney-pixar-cartoon-type-a" target="_blank">Disney Pixar Cartoon</a> | <a href="https://civitai.com/models/94599?modelVersionId=100907" target="_blank">Baby face</a> | <a href="https://civitai.com/models/111793?modelVersionId=120640" target="_blank">Pixel Portrait</a> |
-            <a href="https://alvaradolol.artstation.com/projects" target="_blank">Alex Alvarado</a> | <a href="https://zh.wikipedia.org/zh-cn/%E5%94%90%E4%BC%AF%E8%99%8E%E9%BB%9E%E7%A7%8B%E9%A6%99_(%E9%9B%BB%E5%BD%B1)" target="_blank">唐伯虎点秋香</a> | <a href="https://zh.wikipedia.org/zh-cn/%E6%97%BA%E8%A7%92%E5%8D%A1%E9%97%A8" target="_blank">旺角卡门</a> | <a href="https://zh.wikipedia.org/zh-cn/%E5%AE%B6%E6%9C%89%E5%9B%8D%E4%BA%8B" target="_blank">家有囍事</a> | <a href="https://zh.wikipedia.org/zh-cn/%E9%87%91%E9%A6%86%E9%95%BF%E5%AF%B9%E9%87%91%E9%A6%86%E9%95%BF%E5%AF%B9%E9%87%91%E9%A6%86%E9%95%BF" target="_blank">金馆长对金馆长对金馆长</a> | <a href="https://zh.wikipedia.org/zh-cn/%E4%B9%A1%E6%9D%91%E7%88%B1%E6%83%85" target="_blank">乡村爱情</a> | <a href="https://celebv-hq.github.io/" target="_blank">CelebV-HQ</a>
-          </p>
-            <p>
-            If you have any copyright concerns regarding these materials, please contact us at (songkey@pku.edu.cn), and we will address the issue promptly.
-          </p>
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
+<footer class="footer">
+<div class="container">
+<div class="columns is-centered">
+<div class="column is-8">
+<div class="content">
+<p>The materials used on this page are sourced from publicly available content on the internet, with some sources listed below</p>
+<p>
+<a href="https://civitai.com/models/4201?modelVersionId=130072" target="_blank">Realistic Vision</a> | <a href="https://civitai.com/models/43331/majicmix-realistic?modelVersionId=176425" target="_blank">majicMIX realistic</a> | <a href="https://civitai.com/models/65203/disney-pixar-cartoon-type-a" target="_blank">Disney Pixar Cartoon</a> | <a href="https://civitai.com/models/94599?modelVersionId=100907" target="_blank">Baby face</a> | <a href="https://civitai.com/models/111793?modelVersionId=120640" target="_blank">Pixel Portrait</a> |
+<a href="https://alvaradolol.artstation.com/projects" target="_blank">Alex Alvarado</a> | <a href="https://zh.wikipedia.org/zh-cn/%E5%94%90%E4%BC%AF%E8%99%8E%E9%BB%9E%E7%A7%8B%E9%A6%99_(%E9%9B%BB%E5%BD%B1)" target="_blank">唐伯虎点秋香</a> | <a href="https://zh.wikipedia.org/zh-cn/%E6%97%BA%E8%A7%92%E5%8D%A1%E9%97%A8" target="_blank">旺角卡门</a> | <a href="https://zh.wikipedia.org/zh-cn/%E5%AE%B6%E6%9C%89%E5%9B%8D%E4%BA%8B" target="_blank">家有囍事</a> | <a href="https://zh.wikipedia.org/zh-cn/%E9%87%91%E9%A6%86%E9%95%BF%E5%AF%B9%E9%87%91%E9%A6%86%E9%95%BF%E5%AF%B9%E9%87%91%E9%A6%86%E9%95%BF" target="_blank">金馆长对金馆长对金馆长</a> | <a href="https://zh.wikipedia.org/zh-cn/%E4%B9%A1%E6%9D%91%E7%88%B1%E6%83%85" target="_blank">乡村爱情</a> | <a href="https://celebv-hq.github.io/" target="_blank">CelebV-HQ</a>
+</p>
+<p>
+If you have any copyright concerns regarding these materials, please contact us at (songkey@pku.edu.cn), and we will address the issue promptly.
+</p>
+<p>
+This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+Commons Attribution-ShareAlike 4.0 International License</a>.
+</p>
 
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
+</div>
+</div>
+</div>
 </footer>
 
 <!-- Statcounter tracking code -->
-  
+
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
-    <!-- End of Statcounter Code -->
+<!-- End of Statcounter Code -->
 
-  </body>
-  </html>
+</body>
+</html>
